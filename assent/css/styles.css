@@ -1,0 +1,509 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+container{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+ /* Encabezado */
+
+ #header {
+    width: auto;
+    height: 720px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background.jpg);
+    padding-top: 5px;
+    color: white;
+}
+
+#header .logo {
+    margin: auto;
+    display: block;
+    width: 200px;
+    padding-top: 125px;
+}
+
+#header .title1 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 90px;
+    letter-spacing: 5px;
+}
+
+#header .title2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+ /* Barra de navegación */
+
+ #nav {
+    width: 100%;
+    background-color: white;
+    display: block;
+}
+
+.nav-lista1 {
+    float: left;
+    list-style: none;
+    overflow: hidden;
+}
+
+.nav-item1 {
+    display: inline-block;
+    margin: 50px 40px 50px 40px;
+}
+
+.link-item1 {
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+#nav .link-item1:hover {
+    background-color: rgba(163, 163, 163, 0.358);
+    color: rgb(0, 0, 0);
+}
+
+.logo-nav {
+    width: 0px;
+    height: 0px;
+    margin: 15px 100px 0px 0px;
+}
+
+.nav-lista2 {
+    float: right;
+    list-style: none;
+    overflow: hidden;
+}
+
+.nav-item2 {
+    display: inline-block;
+    margin: 50px 70px 50px 30px;
+    padding-right: 20px;
+}
+
+.link-item2 {
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+#nav .link-item2:hover {
+    background-color: rgba(163, 163, 163, 0.358);
+    color: rgb(0, 0, 0);
+}
+
+ /* Frase */
+
+.body {
+    background-color: black;
+    color: white;
+}
+
+.quote {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background2.jfif);
+    background-size: 1200px 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.help {
+    color: rgb(234, 234, 234);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 150px;
+    padding-top: 300px;
+}
+
+.albus {
+    color: rgb(198, 198, 198);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    margin-left: 725px;
+    padding-bottom: 300px;
+}
+
+ /* Noticias */
+
+.titulo {
+    width: 10px;
+    float: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin: 20px 0px 0px 250px;
+}
+
+.img-quidditch {
+    width: 500px;
+    height: 330px;
+    float: left;
+    padding-top: 80px;
+}
+
+.quidditch {
+    background-color: #E2E2E2;
+    color: #151513;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 185%;
+    letter-spacing: 1px;
+    margin: 0px 300px 0px 760px;
+    padding: 55px 60px 43px 60px;
+}
+
+.img-halloween {
+    width: 400px;
+    float: right;
+    margin-right: 300px;
+}
+
+.halloween {
+    background-color: #151513;
+    color: #E2E2E2;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 185%;
+    letter-spacing: 1px;
+    margin: 0px 700px 0px 260px;
+    padding: 55px 60px 70px 60px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+/* Historia */
+
+.historia {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/history.jpg);
+    background-size: 1200px;
+    height: 720px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tit{
+    color: #E2E2E2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    line-height: 175%;
+    letter-spacing: 10px;
+    padding-top: 100px;
+}
+
+hr.solid {
+    border-top: 1px solid rgb(146, 146, 146);
+    width: 400px;
+    margin: auto;
+    display: block;
+}
+
+.historia-hogw {
+    color: #E2E2E2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    line-height: 175%;
+    letter-spacing: 2px;
+    padding: 20px 300px 0px 300px;
+}
+
+ /* Casas */
+
+.casas{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/diagon-alley.jpg);
+    background-size: 1020px 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 200px;
+}
+
+.casas-tit{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    letter-spacing: 4px;
+    text-align: center;
+    height: 0px;
+    padding: 100px 0px 0px 190px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: #E2E2E2;
+}
+
+.casas-img{
+    margin: auto;
+    display: block;
+    padding-top: 10px;
+}
+
+ /* Clases */
+
+.clases-tit{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 50px 0px 20px 0px;
+    color: #E2E2E2;
+}
+
+.salon{
+    width: 609px;
+    float: left;
+    margin-left: 150px;
+}
+
+.asignatura{
+    float: right;
+}
+
+ /* Periodos */
+
+.periodos-tit{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 10px 0px 20px 0px;
+    color: #E2E2E2;
+}
+
+.img-primer{
+    width: 500px;
+    height: 330px;
+    float: left;
+    padding-left: 200px;
+}
+
+.primer{
+    background-color: #141412;
+    color: #E2E2E2;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 185%;
+    letter-spacing: 1px;
+    margin: 0px 200px 0px 700px;
+    padding: 40px 50px 40px 50px;
+}
+
+.img-segundo{
+    width: 500px;
+    height: 333px;
+    float: right;
+    padding-right: 200px;
+}
+
+.segundo{
+    background-color: #E2E2E2;
+    color: #141412;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 185%;
+    letter-spacing: 1px;
+    margin: 0px 700px 0px 200px;
+    padding: 40px 50px 40px 50px;
+}
+
+.img-tercer{
+    width: 500px;
+    height: 330px;
+    float: left;
+    padding-left: 200px;
+}
+
+.tercer{
+    background-color: #141412;
+    color: #E2E2E2;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 185%;
+    letter-spacing: 1px;
+    margin: 0px 200px 0px 700px;
+    padding: 40px 50px 40px 50px;
+}
+
+.img-cuarto{
+    width: 500px;
+    height: 333px;
+    float: right;
+    padding-right: 200px;
+}
+
+.cuarto{
+    background-color: #E2E2E2;
+    color: #141412;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 185%;
+    letter-spacing: 1px;
+    margin: 0px 700px 0px 200px;
+    padding: 40px 50px 40px 50px;
+}
+
+.img-quinto{
+    width: 500px;
+    height: 330px;
+    float: left;
+    padding-left: 200px;
+}
+
+.quinto{
+    background-color: #141412;
+    color: #E2E2E2;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 185%;
+    letter-spacing: 1px;
+    margin: 0px 200px 0px 700px;
+    padding: 65px 50px 68px 50px;
+}
+
+.img-sexto{
+    width: 500px;
+    height: 333px;
+    float: right;
+    padding-right: 200px;
+}
+
+.sexto{
+    background-color: #E2E2E2;
+    color: #141412;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 185%;
+    letter-spacing: 1px;
+    margin: 0px 700px 0px 200px;
+    padding: 66px 50px 70px 50px;
+}
+
+.img-septimo{
+    width: 500px;
+    height: 330px;
+    float: left;
+    padding-left: 200px;
+}
+
+.septimo{
+    background-color: #141412;
+    color: #E2E2E2;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 185%;
+    letter-spacing: 1px;
+    margin: 0px 200px 0px 700px;
+    padding: 55px 50px 50px 50px;
+}
+
+
+ /* Footer */
+
+.footer{
+    background-color: rgb(16, 12, 22);
+    color: #dfdfd5;
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding: 40px 0px 40px;
+} 
+
+ /* Bolas flotantes */
+
+.up {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(211, 211, 211, 0.479);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 60px;
+    border-radius: 100%;
+    z-index: 999;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.socialmedia .twitter {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(211, 211, 211, 0.479);
+    color: black;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 100%;
+    z-index: 999;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+
+.socialmedia .instagram {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(211, 211, 211, 0.479);
+    color: black;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 100%;
+    z-index: 999;
+    position: fixed;
+    left: 20px;
+    bottom: 90px;
+}
+
+.socialmedia .facebook {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(211, 211, 211, 0.479);
+    color: black;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 100%;
+    z-index: 999;
+    position: fixed;
+    left: 20px;
+    bottom: 160px;
+}
